@@ -1,0 +1,109 @@
+body {
+  background-color: #e7e6e6;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*Inside  Main tag */
+
+#title {
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: "Birthstone", cursive;
+}
+
+@media (max-width: 460px) {
+  .title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+#img-div {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #ffffff;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 460px) {
+  #image {
+    margin-block-end: 21px;
+  }
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 80%;
+  align-items: center;
+
+  margin-top: 85px;
+}
+
+/* Tribute Info Table */
+
+#tribute-info {
+  text-align: center;
+  padding: 22px;
+  font-size: larger;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 18px 0px;
+  width: 50%;
+}
+
+th,
+td {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+/* Article  */
+.ashram {
+  display: block;
+  background-color: white;
+}
+
+.ashram p {
+  width: fit-content;
+  height: auto;
+  padding: 18px 66px;
+  line-height: 1.5;
+  text-align: justify;
+}
+@media (max-width: 460px) {
+  .ashram p {
+    text-align: justify;
+  }
+}
+
+.ashram h1 {
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+/* tribute-link */
+
+#link {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 12px;
+  padding: 12px;
+}
+#tribute-link a {
+  text-decoration: none;
+}
